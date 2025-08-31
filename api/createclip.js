@@ -24,7 +24,7 @@ export default async function handler(req, res) {
         const err = JSON.parse(text);
         if (typeof err?.message === "string") {
           if (err.message.toLowerCase().includes("offline")) {
-            msg = "❌ Kanál je offline – klip sa dá spraviť len keď si LIVE.";
+            msg = "❌ Kanál je offline – klip sa dá spraviť len keď som LIVE lavolp6Smirk ";
           } else {
             msg = `❌ ${err.message}`;
           }
